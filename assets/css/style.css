@@ -1028,6 +1028,18 @@ section {
   fill: #ff5828;
 }
 
+.services .iconbox-strong-red i {
+  color: #ff0000;
+}
+
+.services .iconbox-strong-red:hover .icon i {
+  color: #fff;
+}
+
+.services .iconbox-strong-red:hover .icon path {
+  fill: #ff0000;
+}
+
 .services .iconbox-teal i {
   color: #11dbcf;
 }
