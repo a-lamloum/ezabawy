@@ -34,6 +34,15 @@
 
   <!-- flag icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"/>
+  
+  <!-- slider -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="assets/css/slider.css">
+
+  
   <!-- =======================================================
   * Template Name: OnePage - v4.9.2
   * Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
@@ -76,14 +85,32 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
       <div class="row justify-content-center">
-        <div class="col-xl-7 col-lg-9 text-center">
-          <h2>Welcome to</h2>
-          <h1> Ezabawy website </h1>
+        <div class="col text-center">
+          
+          <!-- ------ hero slider ------ -->
+
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="assets/img/slider-1.jpg"></div>
+              <div class="swiper-slide"><img src="assets/img/slider-2.jpg"></div>
+              <div class="swiper-slide"><img src="assets/img/slider-3.jpg"></div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+          
+          </div>
+        <!-- ------ slider js links ------ -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="assets/js/app.js"></script>
         </div>
       </div>
-      <!-- <div class="text-center">
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
-      </div> -->
 
       <div class="row icon-boxes">
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
